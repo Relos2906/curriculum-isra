@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cv.css">
+    <title>Curriculum Vitae - Soler Castellanos Israel</title>
+</head>
+<body id="top">
+    <header>
+        <h1>Soler Castellanos Israel</h1>
+        <h3>Estudiante de Ingeniería en Tecnologías de la Información e Innovación Digital</h3>
+        <p>Grupo: G301-M</p>
+        <nav>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#formacion">Formación</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <img src="imgs/israelpicture.png">
+            <p>
+                Estudiante de la carrera de <strong>Ingeniería en Tecnologías de la Información e Innovación Digital</strong>,
+                con especialidad en <em>Desarrollo de Software</em>, en la Universidad Tecnológica de Nezahualcóyotl (UTN),
+                con matrícula <strong>2532050022</strong>.
+            </p>
+            <p>
+                Actualmente aprendiendo el desarrollo de páginas web con <mark>HTML</mark> y <mark>CSS</mark>, desde la
+                maquetación básica hasta formularios y estructuras semánticas.
+            </p>
+            <p>Correo: <a href="mailto:israjeje2@gmail.com">israjeje2@gmail.com</a></p>
+        </section>
+
+        <section id="formacion">
+            <h2>Formación académica</h2>
+            <p><strong>Universidad Tecnológica de Nezahualcóyotl (UTN)</strong></p>
+            <p>Ingeniería en Tecnologías de la Información e Innovación Digital, área Desarrollo de Software</p>
+            <p>Temas vistos hasta ahora en el curso de páginas web:</p>
+            <ul>
+                <li>Estructura básica de un documento HTML</li>
+                <li>Selectores en CSS (etiquetas, clases e identificadores)</li>
+                <li>Modelo de caja, floats y posicionamiento</li>
+                <li>Formularios y elementos de entrada de datos</li>
+                <li>Etiquetas semánticas de HTML5 (header, nav, main, section, aside, footer)</li>
+            </ul>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <article>
+                <h3>Study Link</h3>
+                <p>
+                    App móvil de tutorías entre compañeros, desarrollada con <strong>Flutter</strong> y
+                    <strong>Firebase</strong> como proyecto de equipo.
+                </p>
+                <p>Mi rol: desarrollador móvil.</p>
+                <p>Equipo: Alonso (líder / backend), Cristian (UI/UX), Karla (QA / documentación) e Israel (móvil).</p>
+            </article>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <table border="1" cellpadding="8">
+                <tr>
+                    <th>Habilidad</th>
+                    <th>Nivel</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Básico-Intermedio</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Básico-Intermedio</td>
+                </tr>
+                <tr>
+                    <td>Flutter / Firebase</td>
+                    <td>Básico</td>
+                </tr>
+                <tr>
+                    <td>Trabajo en equipo</td>
+                    <td>Intermedio</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form method="post">
+                <p>
+                    <input type="text" name="nombre" placeholder="Nombre" required class="caja">
+                </p>
+                <p>
+                    <input type="email" name="correo" placeholder="Correo" required class="caja">
+                </p>
+                <p>
+                    <select name="asunto" class="caja">
+                        <option value="">Seleccione...</option>
+                        <option value="oferta">Oferta de trabajo</option>
+                        <option value="colaboracion">Colaboración en proyecto</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </p>
+                <p>
+                    <textarea name="mensaje" placeholder="Escriba su mensaje" class="caja" required></textarea>
+                </p>
+                <p>
+                    <button type="submit">Enviar mensaje</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Soler Castellanos Israel | UTN - Ingeniería en Tecnologías de la Información e Innovación Digital</p>
+        <a href="#top">Volver arriba</a>
+    </footer>
+</body>
+</html>
